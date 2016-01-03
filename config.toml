@@ -1,0 +1,21 @@
+baseurl = "http://japan2014.lollback.com/"
+languageCode = "en-au"
+paginate = 10
+title = "Lollback Family 2014 Holiday in Japan"
+canonifyurls = false
+theme = "casper"
+
+[params]
+  description = "Soo desu ne, the Lollback Family are ready for adventure in search of Bullet trains, culture, peace, culinary delights and snow!"
+
+[permalinks]
+  post = "/:year/:month/:day/:filename/"
+
+[taxonomies]
+  author = "author"
+  
+[[menu.main]]
+  name = "Home"
+  weight = -120
+  identifier = "home"
+  url = "/"
