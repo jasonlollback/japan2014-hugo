@@ -6,7 +6,9 @@ canonifyurls = false
 theme = "casper"
 
 [params]
+  cover = "/images/2014/12/blog_header_sm-1.jpg"
   description = "Soo desu ne, the Lollback Family are ready for adventure in search of Bullet trains, culture, peace, culinary delights and snow!"
+  hideHUGOSupport = true
 
 [permalinks]
   post = "/:year/:month/:day/:filename/"

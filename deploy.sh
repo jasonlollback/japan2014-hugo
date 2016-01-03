@@ -17,7 +17,7 @@ fi
 git commit -m "$msg"
 
 # Push site content
-# git push origin master
+git push origin master
 
 
 ###############
@@ -38,7 +38,7 @@ git add -A
 git commit -m "$msg"
 
 # Push site content
-# git push origin gh-pages
+git push origin gh-pages
 
 # Come Back
 cd ..
